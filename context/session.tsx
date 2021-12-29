@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router';
 import { createContext, useContext, useEffect, useState } from 'react';
-import { bigCommerceSDK } from '../scripts/bcSdk';
+import { bigCommerceSDK } from '../scripts/bc-sdk';
 
 const SessionContext = createContext({ context: '' });
 
